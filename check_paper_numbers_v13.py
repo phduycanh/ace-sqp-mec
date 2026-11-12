@@ -68,5 +68,5 @@ if all(os.path.exists(f) for f in raw):
             sz.append(np.mean([len(o["F"]) for o in recs if o["kw"]["M"] == m]))
     chk(f"front sizes with random second starts: 75-95 points ({min(sz):.1f}-{max(sz):.1f})", round(min(sz)) == 75 and round(max(sz)) == 95)
 else:
-    print("skip front sizes (raw_v13_*.pkl not present; run experiments_v13.py or download the raw records)")
+    print("skip front sizes (raw_v13_*.pkl not present; run experiments_v13.py to create them)")
 print("ALL OK" if all(ok) else f"{ok.count(False)} FAILED")
