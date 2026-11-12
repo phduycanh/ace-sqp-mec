@@ -1,0 +1,127 @@
+{
+ "b10": {
+  "win": 20,
+  "loss": 10,
+  "deficit": 2.586326410671859
+ },
+ "b25": {
+  "win": 14,
+  "loss": 15,
+  "deficit": 2.1694865886196553
+ },
+ "a12": {
+  "AEC-SQP": 0.5344444444444445,
+  "BCD-eps": 0.9255555555555556,
+  "MOEA/D+S": 1.0,
+  "NBI-SQP": 0.5266666666666666,
+  "NSGA-II": 1.0,
+  "NSGA-II+S": 1.0,
+  "Random": 1.0,
+  "SPEA2+S": 1.0,
+  "SR-NSGA-II": 0.9988888888888889,
+  "SR-NSGA-II+SQP": 0.4822222222222222,
+  "WS-GA+S": 1.0,
+  "WS-SQP": 0.7422222222222222
+ },
+ "budget_n": {
+  "5": {
+   "ACE-SQP": 30,
+   "BCD-eps": 30,
+   "NBI-SQP": 30,
+   "AEC-SQP": 30,
+   "SR-NSGA-II+SQP": 30,
+   "SR-NSGA-II": 30,
+   "NSGA-II+S": 30,
+   "NSGA-II": 0,
+   "SPEA2+S": 30,
+   "MOEA/D+S": 0,
+   "WS-GA+S": 30,
+   "WS-SQP": 30,
+   "Random": 0
+  },
+  "10": {
+   "ACE-SQP": 30,
+   "BCD-eps": 30,
+   "NBI-SQP": 30,
+   "AEC-SQP": 30,
+   "SR-NSGA-II+SQP": 30,
+   "SR-NSGA-II": 30,
+   "NSGA-II+S": 30,
+   "NSGA-II": 0,
+   "SPEA2+S": 30,
+   "MOEA/D+S": 0,
+   "WS-GA+S": 30,
+   "WS-SQP": 30,
+   "Random": 0
+  },
+  "25": {
+   "ACE-SQP": 30,
+   "BCD-eps": 30,
+   "NBI-SQP": 30,
+   "AEC-SQP": 30,
+   "SR-NSGA-II+SQP": 30,
+   "SR-NSGA-II": 30,
+   "NSGA-II+S": 30,
+   "NSGA-II": 0,
+   "SPEA2+S": 30,
+   "MOEA/D+S": 0,
+   "WS-GA+S": 30,
+   "WS-SQP": 30,
+   "Random": 0
+  },
+  "50": {
+   "ACE-SQP": 30,
+   "BCD-eps": 30,
+   "NBI-SQP": 30,
+   "AEC-SQP": 30,
+   "SR-NSGA-II+SQP": 30,
+   "SR-NSGA-II": 30,
+   "NSGA-II+S": 30,
+   "NSGA-II": 4,
+   "SPEA2+S": 30,
+   "MOEA/D+S": 21,
+   "WS-GA+S": 30,
+   "WS-SQP": 30,
+   "Random": 1
+  },
+  "100": {
+   "ACE-SQP": 30,
+   "BCD-eps": 30,
+   "NBI-SQP": 30,
+   "AEC-SQP": 30,
+   "SR-NSGA-II+SQP": 30,
+   "SR-NSGA-II": 30,
+   "NSGA-II+S": 30,
+   "NSGA-II": 30,
+   "SPEA2+S": 30,
+   "MOEA/D+S": 30,
+   "WS-GA+S": 30,
+   "WS-SQP": 30,
+   "Random": 18
+  }
+ },
+ "energy_anchor": {
+  "max_off": 2,
+  "sets_max": 122,
+  "cand_max": 24,
+  "gain": {
+   "10": [
+    0.5700460478430647,
+    5.781116948793786
+   ],
+   "20": [
+    1.2897028504789798,
+    2.846826462413221
+   ],
+   "30": [
+    1.4388340974144098,
+    2.0828282872461856
+   ],
+   "50": [
+    0.8530782848159557,
+    1.1807928048226612
+   ]
+  }
+ },
+ "evals_base": 8147
+}

@@ -1,0 +1,1231 @@
+{
+ "e1_diagnosis": {
+  "diff_median": 0.00010796600776319387,
+  "diff_mean": 0.0005665582507032789,
+  "diff_max": 0.004406194800398167,
+  "nbi_better": [
+   2026,
+   6001,
+   6004,
+   6009,
+   6022
+  ],
+  "top5": [
+   {
+    "s": 6014,
+    "d_nbi": 0.004406194800398167,
+    "d_noact": 0.00419808630128915,
+    "idle": 1
+   },
+   {
+    "s": 6005,
+    "d_nbi": 0.0037306135810892815,
+    "d_noact": 0.002029754135121964,
+    "idle": 1
+   },
+   {
+    "s": 6003,
+    "d_nbi": 0.003524425147721999,
+    "d_noact": 0.0033956100609562334,
+    "idle": 1
+   },
+   {
+    "s": 6016,
+    "d_nbi": 0.0015108068322813306,
+    "d_noact": 0.0002534764486974428,
+    "idle": 0
+   },
+   {
+    "s": 6027,
+    "d_nbi": 0.0014603644596538068,
+    "d_noact": 0.0013683696333883777,
+    "idle": 1
+   }
+  ],
+  "spearman_nbi_vs_noact": {
+   "rho": 0.6783092324805339,
+   "p": 3.799643005619357e-05
+  },
+  "share_of_total_from_top5": 0.8426236654720126
+ },
+ "e1_hvlow_vs_nbi": {
+  "mean_ace": 1.0196906227797546,
+  "mean_nbi": 1.0181285883574422,
+  "n_nbi_higher": 25,
+  "nbi_higher_median": 0.001986439723621558,
+  "nbi_higher_max": 0.003554649226337414,
+  "nbi_lower_min": 0.008251213721996553,
+  "nbi_lower_max": 0.027953227539602388
+ },
+ "e1": {
+  "10": {
+   "n": 30,
+   "means": {
+    "HV": {
+     "ACE-SQP": 1.1181094518410732,
+     "ACE-SQP w/o activation": 1.1175564834006946,
+     "NBI-SQP": 1.1175428935209868,
+     "AEC-SQP": 1.1174128481194399,
+     "WS-SQP": 1.1105910523195104,
+     "ACE-SQP (random restart)": 1.1179969924408497,
+     "NBI-SQP+act": 1.1181500703328053,
+     "NBI-SQP+rand": 1.107740140605042
+    },
+    "HVlow": {
+     "ACE-SQP": 1.0197711319361147,
+     "ACE-SQP w/o activation": 1.0164915989037984,
+     "NBI-SQP": 1.0182158677276216,
+     "AEC-SQP": 1.0168792907111532,
+     "WS-SQP": 1.019102805766472,
+     "ACE-SQP (random restart)": 1.0197667649250632,
+     "NBI-SQP+act": 1.0216084724731338,
+     "NBI-SQP+rand": 1.0199357110823675
+    },
+    "IGD": {
+     "ACE-SQP": 0.0007981017156526399,
+     "ACE-SQP w/o activation": 0.0013700335835430458,
+     "NBI-SQP": 0.0017768592679788624,
+     "AEC-SQP": 0.0020454754775930018,
+     "WS-SQP": 0.0037231250611286936,
+     "ACE-SQP (random restart)": 0.0008149821473487734,
+     "NBI-SQP+act": 0.0011928053508531561,
+     "NBI-SQP+rand": 0.004349974546588453
+    },
+    "s10": {
+     "ACE-SQP": 37.84558610479034,
+     "ACE-SQP w/o activation": 37.51850629223438,
+     "NBI-SQP": 38.19676314455979,
+     "AEC-SQP": 37.941044814614344,
+     "WS-SQP": 37.31496292430635,
+     "ACE-SQP (random restart)": 37.845586104787564,
+     "NBI-SQP+act": 38.579729603076046,
+     "NBI-SQP+rand": 38.3499384593631
+    },
+    "s25": {
+     "ACE-SQP": 56.69961492942723,
+     "ACE-SQP w/o activation": 56.32010677687238,
+     "NBI-SQP": 56.9934527332999,
+     "AEC-SQP": 56.81766258431621,
+     "WS-SQP": 56.93997295316857,
+     "ACE-SQP (random restart)": 56.69961492942721,
+     "NBI-SQP+act": 57.3345543493888,
+     "NBI-SQP+rand": 57.22233338020237
+    },
+    "evals": {
+     "ACE-SQP": 9740.533333333333,
+     "ACE-SQP w/o activation": 6175.066666666667,
+     "NBI-SQP": 11625.0,
+     "AEC-SQP": 7453.233333333334,
+     "WS-SQP": 21120.686666666672,
+     "ACE-SQP (random restart)": 7619.440000000001,
+     "NBI-SQP+act": 16155.633333333333,
+     "NBI-SQP+rand": 29999.119999999995
+    },
+    "time": {
+     "ACE-SQP": 2.706118194262187,
+     "ACE-SQP w/o activation": 1.4356636683146158,
+     "NBI-SQP": 1.8056570291519165,
+     "AEC-SQP": 1.4666189511617025,
+     "WS-SQP": 5.243081123034161,
+     "ACE-SQP (random restart)": 1.6017981704076132,
+     "NBI-SQP+act": 3.018015750249227,
+     "NBI-SQP+rand": 4.91031792163849
+    }
+   },
+   "vs_ace": {
+    "HV": {
+     "ACE-SQP w/o activation": {
+      "ace_better": 29,
+      "p_holm": 7.450580596923828e-09
+     },
+     "NBI-SQP": {
+      "ace_better": 25,
+      "p_holm": 2.6885420083999634e-05
+     },
+     "AEC-SQP": {
+      "ace_better": 30,
+      "p_holm": 6.51925802230835e-09
+     },
+     "WS-SQP": {
+      "ace_better": 30,
+      "p_holm": 6.51925802230835e-09
+     },
+     "ACE-SQP (random restart)": {
+      "ace_better": 28,
+      "p_holm": 2.7939677238464355e-08
+     },
+     "NBI-SQP+act": {
+      "ace_better": 11,
+      "p_holm": 0.9147008024156094
+     },
+     "NBI-SQP+rand": {
+      "ace_better": 30,
+      "p_holm": 6.51925802230835e-09
+     }
+    },
+    "HVlow": {
+     "ACE-SQP w/o activation": {
+      "ace_better": 5,
+      "p_holm": 0.12934334034922607
+     },
+     "NBI-SQP": {
+      "ace_better": 5,
+      "p_holm": 1.0
+     },
+     "AEC-SQP": {
+      "ace_better": 17,
+      "p_holm": 0.5323321325704455
+     },
+     "WS-SQP": {
+      "ace_better": 22,
+      "p_holm": 0.003960090689361095
+     },
+     "ACE-SQP (random restart)": {
+      "ace_better": 4,
+      "p_holm": 1.0
+     },
+     "NBI-SQP+act": {
+      "ace_better": 0,
+      "p_holm": 1.0
+     },
+     "NBI-SQP+rand": {
+      "ace_better": 5,
+      "p_holm": 1.0
+     }
+    }
+   },
+   "pairs": {
+    "HV": {
+     "NBI+act better than NBI": {
+      "n": 30,
+      "p": 9.313225746154785e-10,
+      "gain": 0.0006071768118184921
+     },
+     "NBI+act strictly higher than ACE": {
+      "n": 19,
+      "ties": 0
+     },
+     "activation better than random restart": {
+      "n": 28,
+      "n_worse": 2,
+      "p": 9.313225746154785e-09,
+      "p_rev": 0.999999993480742,
+      "diff": 0.00011245940022354498
+     },
+     "random restart better than none": {
+      "n": 23,
+      "gain": 0.00044050904015514224
+     }
+    },
+    "HVlow": {
+     "NBI+act better than NBI": {
+      "n": 6,
+      "p": 0.013853924679039932,
+      "gain": 0.0033926047455124027
+     },
+     "NBI+act strictly higher than ACE": {
+      "n": 30,
+      "ties": 0
+     },
+     "activation better than random restart": {
+      "n": 4,
+      "n_worse": 2,
+      "p": 0.2963268411561672,
+      "p_rev": 0.7036731588438327,
+      "diff": 4.367011051527777e-06
+     },
+     "random restart better than none": {
+      "n": 6,
+      "gain": 0.0032751660212648414
+     }
+    }
+   }
+  }
+ },
+ "stress": {
+  "10": {
+   "n": 10,
+   "means": {
+    "HV": {
+     "ACE-SQP": 1.1713218868112105,
+     "ACE-SQP w/o activation": 1.160254115561463,
+     "NBI-SQP": 1.1600705267560658,
+     "AEC-SQP": 1.1575246940980057,
+     "WS-SQP": 1.169018967099484,
+     "ACE-SQP (random restart)": 1.1712419277158108,
+     "NBI-SQP+act": 1.167309145706576,
+     "NBI-SQP+rand": 1.1528772650237673
+    },
+    "HVlow": {
+     "ACE-SQP": 1.0915679867745736,
+     "ACE-SQP w/o activation": 1.020965762663018,
+     "NBI-SQP": 1.021686889486273,
+     "AEC-SQP": 1.020836579279297,
+     "WS-SQP": 1.088535671436194,
+     "ACE-SQP (random restart)": 1.0915667897087318,
+     "NBI-SQP+act": 1.0673385922061713,
+     "NBI-SQP+rand": 1.0300561943595063
+    },
+    "IGD": {
+     "ACE-SQP": 0.0005745277014970239,
+     "ACE-SQP w/o activation": 0.015530255129083024,
+     "NBI-SQP": 0.015694754709248075,
+     "AEC-SQP": 0.016861758751947096,
+     "WS-SQP": 0.0011368873996993754,
+     "ACE-SQP (random restart)": 0.0006037837793138132,
+     "NBI-SQP+act": 0.006475682246322766,
+     "NBI-SQP+rand": 0.017182763118445153
+    },
+    "s10": {
+     "ACE-SQP": 61.7342859964085,
+     "ACE-SQP w/o activation": 53.1761826738573,
+     "NBI-SQP": 53.781732514348356,
+     "AEC-SQP": 53.72883150914123,
+     "WS-SQP": 60.27937469820525,
+     "ACE-SQP (random restart)": 61.71519970443044,
+     "NBI-SQP+act": 57.138663555193695,
+     "NBI-SQP+rand": 54.52928657985266
+    },
+    "s25": {
+     "ACE-SQP": 74.94699830800946,
+     "ACE-SQP w/o activation": 66.3341806854443,
+     "NBI-SQP": 66.56848999854522,
+     "AEC-SQP": 66.72873029540933,
+     "WS-SQP": 75.1145799888416,
+     "ACE-SQP (random restart)": 74.90856878716319,
+     "NBI-SQP+act": 71.48027876289612,
+     "NBI-SQP+rand": 67.69273968573205
+    },
+    "evals": {
+     "ACE-SQP": 15034.4,
+     "ACE-SQP w/o activation": 6100.4,
+     "NBI-SQP": 12115.6,
+     "AEC-SQP": 7499.6,
+     "WS-SQP": 23798.2,
+     "ACE-SQP (random restart)": 11660.12,
+     "NBI-SQP+act": 24081.9,
+     "NBI-SQP+rand": 29998.619999999995
+    },
+    "time": {
+     "ACE-SQP": 3.354154682159424,
+     "ACE-SQP w/o activation": 1.5899247884750367,
+     "NBI-SQP": 2.7023794889450072,
+     "AEC-SQP": 1.9565563201904297,
+     "WS-SQP": 6.006506690979004,
+     "ACE-SQP (random restart)": 4.14744649887085,
+     "NBI-SQP+act": 7.802381944656372,
+     "NBI-SQP+rand": 9.238001861572267
+    }
+   },
+   "vs_ace": {
+    "HV": {
+     "ACE-SQP w/o activation": {
+      "ace_better": 10,
+      "p_holm": 0.0068359375
+     },
+     "NBI-SQP": {
+      "ace_better": 10,
+      "p_holm": 0.0068359375
+     },
+     "AEC-SQP": {
+      "ace_better": 10,
+      "p_holm": 0.0068359375
+     },
+     "WS-SQP": {
+      "ace_better": 10,
+      "p_holm": 0.0068359375
+     },
+     "ACE-SQP (random restart)": {
+      "ace_better": 10,
+      "p_holm": 0.0068359375
+     },
+     "NBI-SQP+act": {
+      "ace_better": 10,
+      "p_holm": 0.0068359375
+     },
+     "NBI-SQP+rand": {
+      "ace_better": 10,
+      "p_holm": 0.0068359375
+     }
+    },
+    "HVlow": {
+     "ACE-SQP w/o activation": {
+      "ace_better": 9,
+      "p_holm": 0.01171875
+     },
+     "NBI-SQP": {
+      "ace_better": 9,
+      "p_holm": 0.01171875
+     },
+     "AEC-SQP": {
+      "ace_better": 10,
+      "p_holm": 0.0068359375
+     },
+     "WS-SQP": {
+      "ace_better": 9,
+      "p_holm": 0.01171875
+     },
+     "ACE-SQP (random restart)": {
+      "ace_better": 5,
+      "p_holm": 0.4921875
+     },
+     "NBI-SQP+act": {
+      "ace_better": 5,
+      "p_holm": 0.4921875
+     },
+     "NBI-SQP+rand": {
+      "ace_better": 8,
+      "p_holm": 0.0146484375
+     }
+    }
+   },
+   "pairs": {
+    "HV": {
+     "NBI+act better than NBI": {
+      "n": 10,
+      "p": 0.0009765625,
+      "gain": 0.0072386189505103
+     },
+     "NBI+act strictly higher than ACE": {
+      "n": 0,
+      "ties": 0
+     },
+     "activation better than random restart": {
+      "n": 10,
+      "n_worse": 0,
+      "p": 0.0009765625,
+      "p_rev": 1.0,
+      "diff": 7.995909539981749e-05
+     },
+     "random restart better than none": {
+      "n": 10,
+      "gain": 0.010987812154347965
+     }
+    },
+    "HVlow": {
+     "NBI+act better than NBI": {
+      "n": 9,
+      "p": 0.001953125,
+      "gain": 0.04565170271989839
+     },
+     "NBI+act strictly higher than ACE": {
+      "n": 5,
+      "ties": 0
+     },
+     "activation better than random restart": {
+      "n": 5,
+      "n_worse": 5,
+      "p": 0.4609375,
+      "p_rev": 0.5771484375,
+      "diff": 1.1970658415849656e-06
+     },
+     "random restart better than none": {
+      "n": 9,
+      "gain": 0.07060102704571394
+     }
+    }
+   }
+  }
+ },
+ "path": {
+  "10": {
+   "n": 10,
+   "means": {
+    "HV": {
+     "ACE-SQP": 1.1249240108563183,
+     "ACE-SQP w/o activation": 1.1214604072400332,
+     "NBI-SQP": 1.1213858568421389,
+     "AEC-SQP": 1.1208471822867025,
+     "WS-SQP": 1.1175640920899683,
+     "ACE-SQP (random restart)": 1.1247413711383047,
+     "NBI-SQP+act": 1.1249299820907495,
+     "NBI-SQP+rand": 1.1123402831307234
+    },
+    "HVlow": {
+     "ACE-SQP": 1.03884964364357,
+     "ACE-SQP w/o activation": 1.0168385254964416,
+     "NBI-SQP": 1.0181169589937293,
+     "AEC-SQP": 1.016080157974324,
+     "WS-SQP": 1.0375939727016643,
+     "ACE-SQP (random restart)": 1.0388449204091201,
+     "NBI-SQP+act": 1.040105015623031,
+     "NBI-SQP+rand": 1.031659870360778
+    },
+    "IGD": {
+     "ACE-SQP": 0.000799733102698922,
+     "ACE-SQP w/o activation": 0.0045186389031329375,
+     "NBI-SQP": 0.004818457711995693,
+     "AEC-SQP": 0.005312423574699664,
+     "WS-SQP": 0.0035426559278364084,
+     "ACE-SQP (random restart)": 0.0008311511983759328,
+     "NBI-SQP+act": 0.001177991259396285,
+     "NBI-SQP+rand": 0.005372110787594168
+    },
+    "s10": {
+     "ACE-SQP": 42.74811557962695,
+     "ACE-SQP w/o activation": 40.091775248183964,
+     "NBI-SQP": 40.80721400827601,
+     "AEC-SQP": 40.78111939806503,
+     "WS-SQP": 41.360522876838345,
+     "ACE-SQP (random restart)": 42.748115504542284,
+     "NBI-SQP+act": 43.51260000805907,
+     "NBI-SQP+rand": 42.240014094058296
+    },
+    "s25": {
+     "ACE-SQP": 60.532734145299095,
+     "ACE-SQP w/o activation": 58.117329601130656,
+     "NBI-SQP": 58.09466872187245,
+     "AEC-SQP": 58.34054396162461,
+     "WS-SQP": 60.192108523086475,
+     "ACE-SQP (random restart)": 60.53273414434746,
+     "NBI-SQP+act": 60.59786716768838,
+     "NBI-SQP+rand": 59.70381948472577
+    },
+    "evals": {
+     "ACE-SQP": 11285.5,
+     "ACE-SQP w/o activation": 6931.4,
+     "NBI-SQP": 13362.1,
+     "AEC-SQP": 7309.0,
+     "WS-SQP": 21296.16,
+     "ACE-SQP (random restart)": 8955.3,
+     "NBI-SQP+act": 19673.8,
+     "NBI-SQP+rand": 29999.32
+    },
+    "time": {
+     "ACE-SQP": 2.9501657247543336,
+     "ACE-SQP w/o activation": 1.668922209739685,
+     "NBI-SQP": 2.4412146329879763,
+     "AEC-SQP": 1.7052887201309204,
+     "WS-SQP": 5.145491547584534,
+     "ACE-SQP (random restart)": 3.505224184989929,
+     "NBI-SQP+act": 6.685932612419128,
+     "NBI-SQP+rand": 9.717464680671693
+    }
+   },
+   "vs_ace": {
+    "HV": {
+     "ACE-SQP w/o activation": {
+      "ace_better": 10,
+      "p_holm": 0.0068359375
+     },
+     "NBI-SQP": {
+      "ace_better": 8,
+      "p_holm": 0.0146484375
+     },
+     "AEC-SQP": {
+      "ace_better": 10,
+      "p_holm": 0.0068359375
+     },
+     "WS-SQP": {
+      "ace_better": 10,
+      "p_holm": 0.0068359375
+     },
+     "ACE-SQP (random restart)": {
+      "ace_better": 9,
+      "p_holm": 0.0146484375
+     },
+     "NBI-SQP+act": {
+      "ace_better": 5,
+      "p_holm": 0.5390625
+     },
+     "NBI-SQP+rand": {
+      "ace_better": 10,
+      "p_holm": 0.0068359375
+     }
+    },
+    "HVlow": {
+     "ACE-SQP w/o activation": {
+      "ace_better": 5,
+      "p_holm": 0.15625
+     },
+     "NBI-SQP": {
+      "ace_better": 4,
+      "p_holm": 0.875
+     },
+     "AEC-SQP": {
+      "ace_better": 7,
+      "p_holm": 0.08203125
+     },
+     "WS-SQP": {
+      "ace_better": 9,
+      "p_holm": 0.0205078125
+     },
+     "ACE-SQP (random restart)": {
+      "ace_better": 4,
+      "p_holm": 0.875
+     },
+     "NBI-SQP+act": {
+      "ace_better": 2,
+      "p_holm": 1.0
+     },
+     "NBI-SQP+rand": {
+      "ace_better": 3,
+      "p_holm": 1.0
+     }
+    }
+   },
+   "pairs": {
+    "HV": {
+     "NBI+act better than NBI": {
+      "n": 10,
+      "p": 0.0009765625,
+      "gain": 0.0035441252486105414
+     },
+     "NBI+act strictly higher than ACE": {
+      "n": 5,
+      "ties": 0
+     },
+     "activation better than random restart": {
+      "n": 9,
+      "n_worse": 1,
+      "p": 0.0048828125,
+      "p_rev": 0.9970703125,
+      "diff": 0.00018263971801344426
+     },
+     "random restart better than none": {
+      "n": 8,
+      "gain": 0.003280963898271749
+     }
+    },
+    "HVlow": {
+     "NBI+act better than NBI": {
+      "n": 5,
+      "p": 0.03125,
+      "gain": 0.02198805662930158
+     },
+     "NBI+act strictly higher than ACE": {
+      "n": 8,
+      "ties": 0
+     },
+     "activation better than random restart": {
+      "n": 4,
+      "n_worse": 1,
+      "p": 0.21875,
+      "p_rev": 0.84375,
+      "diff": 4.723234450032532e-06
+     },
+     "random restart better than none": {
+      "n": 4,
+      "gain": 0.022006394912678452
+     }
+    }
+   }
+  }
+ },
+ "e4": {
+  "20": {
+   "n": 10,
+   "means": {
+    "HV": {
+     "ACE-SQP": 1.102600434667991,
+     "NBI-SQP": 1.100924631256011,
+     "AEC-SQP": 1.1007155288006154,
+     "ACE-SQP (random restart)": 1.1024367942265807,
+     "NBI-SQP+act": 1.1026162681274627,
+     "NBI-SQP+rand": 1.0822815704301576
+    },
+    "HVlow": {
+     "ACE-SQP": 0.9648700716646663,
+     "NBI-SQP": 0.9563725842914925,
+     "AEC-SQP": 0.9550726579595622,
+     "ACE-SQP (random restart)": 0.9649922478005166,
+     "NBI-SQP+act": 0.9665989127062048,
+     "NBI-SQP+rand": 0.9573074300953379
+    },
+    "IGD": {
+     "ACE-SQP": 0.0005931117511111969,
+     "NBI-SQP": 0.0018212823717333709,
+     "AEC-SQP": 0.0019843713145669918,
+     "ACE-SQP (random restart)": 0.000635530400473856,
+     "NBI-SQP+act": 0.0009119134693483074,
+     "NBI-SQP+rand": 0.008724025235624275
+    },
+    "s10": {
+     "ACE-SQP": 28.751635256644608,
+     "NBI-SQP": 28.437854362990997,
+     "AEC-SQP": 27.846386705506102,
+     "ACE-SQP (random restart)": 28.75114317353041,
+     "NBI-SQP+act": 29.217042360116885,
+     "NBI-SQP+rand": 28.5152924269768
+    },
+    "s25": {
+     "ACE-SQP": 48.68252413032399,
+     "NBI-SQP": 47.78592250545471,
+     "AEC-SQP": 47.643011832123726,
+     "ACE-SQP (random restart)": 48.67374152313809,
+     "NBI-SQP+act": 48.93921467579731,
+     "NBI-SQP+rand": 47.90143655291888
+    },
+    "evals": {
+     "ACE-SQP": 21500.6,
+     "NBI-SQP": 13862.2,
+     "AEC-SQP": 12519.5,
+     "ACE-SQP (random restart)": 18536.9,
+     "NBI-SQP+act": 23537.1,
+     "NBI-SQP+rand": 29999.359999999997
+    },
+    "time": {
+     "ACE-SQP": 12.580643367767333,
+     "NBI-SQP": 7.363585805892944,
+     "AEC-SQP": 7.0146091222763065,
+     "ACE-SQP (random restart)": 19.358996453285222,
+     "NBI-SQP+act": 22.586611485481264,
+     "NBI-SQP+rand": 25.332167086601256
+    }
+   },
+   "vs_ace": {
+    "HV": {
+     "NBI-SQP": {
+      "ace_better": 9,
+      "p_holm": 0.0048828125
+     },
+     "AEC-SQP": {
+      "ace_better": 10,
+      "p_holm": 0.0048828125
+     },
+     "ACE-SQP (random restart)": {
+      "ace_better": 10,
+      "p_holm": 0.0048828125
+     },
+     "NBI-SQP+act": {
+      "ace_better": 6,
+      "p_holm": 0.5390625
+     },
+     "NBI-SQP+rand": {
+      "ace_better": 10,
+      "p_holm": 0.0048828125
+     }
+    },
+    "HVlow": {
+     "NBI-SQP": {
+      "ace_better": 6,
+      "p_holm": 0.46484375
+     },
+     "AEC-SQP": {
+      "ace_better": 10,
+      "p_holm": 0.0048828125
+     },
+     "ACE-SQP (random restart)": {
+      "ace_better": 3,
+      "p_holm": 1.0
+     },
+     "NBI-SQP+act": {
+      "ace_better": 0,
+      "p_holm": 1.0
+     },
+     "NBI-SQP+rand": {
+      "ace_better": 6,
+      "p_holm": 0.46484375
+     }
+    }
+   },
+   "pairs": {
+    "HV": {
+     "NBI+act better than NBI": {
+      "n": 10,
+      "p": 0.0009765625,
+      "gain": 0.001691636871451707
+     },
+     "NBI+act strictly higher than ACE": {
+      "n": 4,
+      "ties": 0
+     },
+     "activation better than random restart": {
+      "n": 10,
+      "n_worse": 0,
+      "p": 0.0009765625,
+      "p_rev": 1.0,
+      "diff": 0.00016364044141039535
+     }
+    },
+    "HVlow": {
+     "NBI+act better than NBI": {
+      "n": 10,
+      "p": 0.0009765625,
+      "gain": 0.010226328414712516
+     },
+     "NBI+act strictly higher than ACE": {
+      "n": 10,
+      "ties": 0
+     },
+     "activation better than random restart": {
+      "n": 3,
+      "n_worse": 7,
+      "p": 0.9345703125,
+      "p_rev": 0.080078125,
+      "diff": -0.00012217613585014943
+     }
+    }
+   }
+  },
+  "30": {
+   "n": 10,
+   "means": {
+    "HV": {
+     "ACE-SQP": 1.097502163707905,
+     "NBI-SQP": 1.0965343360399902,
+     "AEC-SQP": 1.0960485643080216,
+     "ACE-SQP (random restart)": 1.097486358125614,
+     "NBI-SQP+act": 1.0972967641507962,
+     "NBI-SQP+rand": 1.0757583156074797
+    },
+    "HVlow": {
+     "ACE-SQP": 0.9471639698207852,
+     "NBI-SQP": 0.9428255652526234,
+     "AEC-SQP": 0.9395942903497192,
+     "ACE-SQP (random restart)": 0.9478334845715042,
+     "NBI-SQP+act": 0.9470664560247798,
+     "NBI-SQP+rand": 0.9422958233547141
+    },
+    "IGD": {
+     "ACE-SQP": 0.000751254775756739,
+     "NBI-SQP": 0.0012357758824738986,
+     "AEC-SQP": 0.0016654117631781907,
+     "ACE-SQP (random restart)": 0.0007015317363135604,
+     "NBI-SQP+act": 0.0009080821580724529,
+     "NBI-SQP+rand": 0.008745705292323403
+    },
+    "s10": {
+     "ACE-SQP": 27.52750184466019,
+     "NBI-SQP": 26.901267079451834,
+     "AEC-SQP": 26.776359861063618,
+     "ACE-SQP (random restart)": 27.54081616221144,
+     "NBI-SQP+act": 27.280666015357202,
+     "NBI-SQP+rand": 26.901266082949427
+    },
+    "s25": {
+     "ACE-SQP": 45.84307980911147,
+     "NBI-SQP": 45.57547948303876,
+     "AEC-SQP": 44.87344666448921,
+     "ACE-SQP (random restart)": 45.87126473284471,
+     "NBI-SQP+act": 45.97119461092233,
+     "NBI-SQP+rand": 45.60947889021458
+    },
+    "evals": {
+     "ACE-SQP": 25562.1,
+     "NBI-SQP": 15286.6,
+     "AEC-SQP": 18117.9,
+     "ACE-SQP (random restart)": 21611.260000000002,
+     "NBI-SQP+act": 25776.9,
+     "NBI-SQP+rand": 29999.0
+    },
+    "time": {
+     "ACE-SQP": 36.894105958938596,
+     "NBI-SQP": 18.4673490524292,
+     "AEC-SQP": 26.301202058792114,
+     "ACE-SQP (random restart)": 53.71456201553345,
+     "NBI-SQP+act": 57.98934724330902,
+     "NBI-SQP+rand": 58.313031973838804
+    }
+   },
+   "vs_ace": {
+    "HV": {
+     "NBI-SQP": {
+      "ace_better": 7,
+      "p_holm": 0.0732421875
+     },
+     "AEC-SQP": {
+      "ace_better": 10,
+      "p_holm": 0.0048828125
+     },
+     "ACE-SQP (random restart)": {
+      "ace_better": 6,
+      "p_holm": 0.3125
+     },
+     "NBI-SQP+act": {
+      "ace_better": 7,
+      "p_holm": 0.10546875
+     },
+     "NBI-SQP+rand": {
+      "ace_better": 10,
+      "p_holm": 0.0048828125
+     }
+    },
+    "HVlow": {
+     "NBI-SQP": {
+      "ace_better": 6,
+      "p_holm": 0.4130859375
+     },
+     "AEC-SQP": {
+      "ace_better": 9,
+      "p_holm": 0.009765625
+     },
+     "ACE-SQP (random restart)": {
+      "ace_better": 1,
+      "p_holm": 1.0
+     },
+     "NBI-SQP+act": {
+      "ace_better": 3,
+      "p_holm": 1.0
+     },
+     "NBI-SQP+rand": {
+      "ace_better": 7,
+      "p_holm": 0.3203125
+     }
+    }
+   },
+   "pairs": {
+    "HV": {
+     "NBI+act better than NBI": {
+      "n": 7,
+      "p": 0.0244140625,
+      "gain": 0.0007624281108058462
+     },
+     "NBI+act strictly higher than ACE": {
+      "n": 3,
+      "ties": 0
+     },
+     "activation better than random restart": {
+      "n": 6,
+      "n_worse": 4,
+      "p": 0.3125,
+      "p_rev": 0.7216796875,
+      "diff": 1.5805582291084086e-05
+     }
+    },
+    "HVlow": {
+     "NBI+act better than NBI": {
+      "n": 6,
+      "p": 0.080078125,
+      "gain": 0.004240890772156414
+     },
+     "NBI+act strictly higher than ACE": {
+      "n": 7,
+      "ties": 0
+     },
+     "activation better than random restart": {
+      "n": 1,
+      "n_worse": 9,
+      "p": 0.9951171875,
+      "p_rev": 0.0068359375,
+      "diff": -0.0006695147507189247
+     }
+    }
+   }
+  }
+ },
+ "e4b": {
+  "50": {
+   "n": 10,
+   "means": {
+    "HV": {
+     "ACE-SQP": 1.0933545670805644,
+     "NBI-SQP": 1.0923468993819343,
+     "AEC-SQP": 1.091880868505965,
+     "WS-SQP": 1.0746896059730149,
+     "ACE-SQP (random restart)": 1.0931697953251878,
+     "NBI-SQP+act": 1.092593178028047,
+     "NBI-SQP+rand": 1.0675930775804772
+    },
+    "HVlow": {
+     "ACE-SQP": 0.939061979634571,
+     "NBI-SQP": 0.9349204865737898,
+     "AEC-SQP": 0.9321451019620266,
+     "WS-SQP": 0.9312701707056391,
+     "ACE-SQP (random restart)": 0.9383953408030014,
+     "NBI-SQP+act": 0.9359234431655489,
+     "NBI-SQP+rand": 0.933642748285463
+    },
+    "IGD": {
+     "ACE-SQP": 0.000937012954953541,
+     "NBI-SQP": 0.0013094542506767817,
+     "AEC-SQP": 0.0017827460919386748,
+     "WS-SQP": 0.005604031925870908,
+     "ACE-SQP (random restart)": 0.0010261349521593455,
+     "NBI-SQP+act": 0.0012100107162191988,
+     "NBI-SQP+rand": 0.00910287438454699
+    },
+    "s10": {
+     "ACE-SQP": 27.12508307773053,
+     "NBI-SQP": 26.86355610482746,
+     "AEC-SQP": 26.98358903607151,
+     "WS-SQP": 24.90971209352883,
+     "ACE-SQP (random restart)": 27.072617175535488,
+     "NBI-SQP+act": 27.04634755202614,
+     "NBI-SQP+rand": 26.86355650602486
+    },
+    "s25": {
+     "ACE-SQP": 44.47147830555359,
+     "NBI-SQP": 44.43302353732419,
+     "AEC-SQP": 44.085066220949,
+     "WS-SQP": 43.286488083384896,
+     "ACE-SQP (random restart)": 44.39516638945305,
+     "NBI-SQP+act": 44.449437304585146,
+     "NBI-SQP+rand": 44.433063403766816
+    },
+    "evals": {
+     "ACE-SQP": 24019.3,
+     "NBI-SQP": 17291.8,
+     "AEC-SQP": 21346.8,
+     "WS-SQP": 30000.0,
+     "ACE-SQP (random restart)": 22728.22,
+     "NBI-SQP+act": 24721.8,
+     "NBI-SQP+rand": 29999.139999999996
+    },
+    "time": {
+     "ACE-SQP": 140.27214856147765,
+     "NBI-SQP": 82.35979039669037,
+     "AEC-SQP": 103.22118964195252,
+     "WS-SQP": 150.61799089431764,
+     "ACE-SQP (random restart)": 237.54842936038966,
+     "NBI-SQP+act": 230.3039484500885,
+     "NBI-SQP+rand": 232.0491960144043
+    }
+   },
+   "vs_ace": {
+    "HV": {
+     "NBI-SQP": {
+      "ace_better": 9,
+      "p_holm": 0.005859375
+     },
+     "AEC-SQP": {
+      "ace_better": 10,
+      "p_holm": 0.005859375
+     },
+     "WS-SQP": {
+      "ace_better": 10,
+      "p_holm": 0.005859375
+     },
+     "ACE-SQP (random restart)": {
+      "ace_better": 8,
+      "p_holm": 0.01953125
+     },
+     "NBI-SQP+act": {
+      "ace_better": 8,
+      "p_holm": 0.01953125
+     },
+     "NBI-SQP+rand": {
+      "ace_better": 10,
+      "p_holm": 0.005859375
+     }
+    },
+    "HVlow": {
+     "NBI-SQP": {
+      "ace_better": 8,
+      "p_holm": 0.0732421875
+     },
+     "AEC-SQP": {
+      "ace_better": 10,
+      "p_holm": 0.005859375
+     },
+     "WS-SQP": {
+      "ace_better": 10,
+      "p_holm": 0.005859375
+     },
+     "ACE-SQP (random restart)": {
+      "ace_better": 6,
+      "p_holm": 0.16015625
+     },
+     "NBI-SQP+act": {
+      "ace_better": 7,
+      "p_holm": 0.16015625
+     },
+     "NBI-SQP+rand": {
+      "ace_better": 10,
+      "p_holm": 0.005859375
+     }
+    }
+   },
+   "pairs": {
+    "HV": {
+     "NBI+act better than NBI": {
+      "n": 10,
+      "p": 0.0009765625,
+      "gain": 0.0002462786461124855
+     },
+     "NBI+act strictly higher than ACE": {
+      "n": 2,
+      "ties": 0
+     },
+     "activation better than random restart": {
+      "n": 8,
+      "n_worse": 2,
+      "p": 0.0185546875,
+      "p_rev": 0.986328125,
+      "diff": 0.00018477175537667812
+     }
+    },
+    "HVlow": {
+     "NBI+act better than NBI": {
+      "n": 3,
+      "p": 0.71484375,
+      "gain": 0.0010029565917591965
+     },
+     "NBI+act strictly higher than ACE": {
+      "n": 3,
+      "ties": 0
+     },
+     "activation better than random restart": {
+      "n": 6,
+      "n_worse": 4,
+      "p": 0.1376953125,
+      "p_rev": 0.8837890625,
+      "diff": 0.0006666388315695771
+     }
+    }
+   }
+  }
+ },
+ "fresh50": {
+  "50": {
+   "n": 10,
+   "means": {
+    "HV": {
+     "ACE-SQP": 1.0920179648969002,
+     "NBI-SQP": 1.0914760301002708,
+     "AEC-SQP": 1.090411926322834,
+     "WS-SQP": 1.0743194418514432,
+     "ACE-SQP (random restart)": 1.0918999429840468,
+     "NBI-SQP+act": 1.0915508183060194,
+     "NBI-SQP+rand": 1.0622676138285025
+    },
+    "HVlow": {
+     "ACE-SQP": 0.9379504897564873,
+     "NBI-SQP": 0.9354705869148484,
+     "AEC-SQP": 0.9289389584518709,
+     "WS-SQP": 0.933169257341229,
+     "ACE-SQP (random restart)": 0.9374876806799625,
+     "NBI-SQP+act": 0.9354678554698956,
+     "NBI-SQP+rand": 0.9340318775152678
+    },
+    "IGD": {
+     "ACE-SQP": 0.0010797402874627774,
+     "NBI-SQP": 0.0012054217155513483,
+     "AEC-SQP": 0.0021345416636170023,
+     "WS-SQP": 0.0051903020618107145,
+     "ACE-SQP (random restart)": 0.0011267501709622074,
+     "NBI-SQP+act": 0.0011766349092141304,
+     "NBI-SQP+rand": 0.010216845464809046
+    },
+    "s10": {
+     "ACE-SQP": 27.471957819723873,
+     "NBI-SQP": 26.97395013774308,
+     "AEC-SQP": 24.136915226272617,
+     "WS-SQP": 25.234201279863953,
+     "ACE-SQP (random restart)": 27.407494850721484,
+     "NBI-SQP+act": 26.97395060665216,
+     "NBI-SQP+rand": 26.973966264826146
+    },
+    "s25": {
+     "ACE-SQP": 44.621840575931884,
+     "NBI-SQP": 44.48091587537846,
+     "AEC-SQP": 44.30382422799566,
+     "WS-SQP": 44.00426144636742,
+     "ACE-SQP (random restart)": 44.542382748206315,
+     "NBI-SQP+act": 44.31790286681203,
+     "NBI-SQP+rand": 44.317902866813654
+    },
+    "evals": {
+     "ACE-SQP": 23468.8,
+     "NBI-SQP": 17836.6,
+     "AEC-SQP": 19269.9,
+     "WS-SQP": 30000.0,
+     "ACE-SQP (random restart)": 22432.06,
+     "NBI-SQP+act": 25056.2,
+     "NBI-SQP+rand": 29999.04
+    },
+    "time": {
+     "ACE-SQP": 135.98990354537963,
+     "NBI-SQP": 87.0338318824768,
+     "AEC-SQP": 96.97983827590943,
+     "WS-SQP": 149.77000591754913,
+     "ACE-SQP (random restart)": 245.38209170818328,
+     "NBI-SQP+act": 243.6416712999344,
+     "NBI-SQP+rand": 238.9092844247818
+    }
+   },
+   "vs_ace": {
+    "HV": {
+     "NBI-SQP": {
+      "ace_better": 7,
+      "p_holm": 0.0966796875
+     },
+     "AEC-SQP": {
+      "ace_better": 10,
+      "p_holm": 0.005859375
+     },
+     "WS-SQP": {
+      "ace_better": 10,
+      "p_holm": 0.005859375
+     },
+     "ACE-SQP (random restart)": {
+      "ace_better": 6,
+      "p_holm": 0.24609375
+     },
+     "NBI-SQP+act": {
+      "ace_better": 7,
+      "p_holm": 0.16015625
+     },
+     "NBI-SQP+rand": {
+      "ace_better": 10,
+      "p_holm": 0.005859375
+     }
+    },
+    "HVlow": {
+     "NBI-SQP": {
+      "ace_better": 6,
+      "p_holm": 0.2900390625
+     },
+     "AEC-SQP": {
+      "ace_better": 10,
+      "p_holm": 0.005859375
+     },
+     "WS-SQP": {
+      "ace_better": 9,
+      "p_holm": 0.009765625
+     },
+     "ACE-SQP (random restart)": {
+      "ace_better": 7,
+      "p_holm": 0.2900390625
+     },
+     "NBI-SQP+act": {
+      "ace_better": 6,
+      "p_holm": 0.2900390625
+     },
+     "NBI-SQP+rand": {
+      "ace_better": 8,
+      "p_holm": 0.0390625
+     }
+    }
+   },
+   "pairs": {
+    "HV": {
+     "NBI+act better than NBI": {
+      "n": 7,
+      "p": 0.009765625,
+      "gain": 7.478820574882138e-05
+     },
+     "NBI+act strictly higher than ACE": {
+      "n": 3,
+      "ties": 0
+     },
+     "activation better than random restart": {
+      "n": 6,
+      "n_worse": 4,
+      "p": 0.24609375,
+      "p_rev": 0.7841796875,
+      "diff": 0.00011802191285341657
+     }
+    },
+    "HVlow": {
+     "NBI+act better than NBI": {
+      "n": 2,
+      "p": 0.9453125,
+      "gain": -2.7314449526971706e-06
+     },
+     "NBI+act strictly higher than ACE": {
+      "n": 4,
+      "ties": 0
+     },
+     "activation better than random restart": {
+      "n": 7,
+      "n_worse": 3,
+      "p": 0.1875,
+      "p_rev": 0.8388671875,
+      "diff": 0.0004628090765247506
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "ace": {
+  "shape": 2.0,
+  "borrow": 2.0
+ },
+ "hybrid": {
+  "K": 98,
+  "rho": 1.0
+ },
+ "moead": {
+  "n_neighbors": 10,
+  "prob_neighbor_mating": 0.9
+ },
+ "ops": {
+  "SR-NSGA-II": {
+   "sbx_eta": 30,
+   "pm_eta": 5
+  },
+  "SR-NSGA-II+SQP": {
+   "sbx_eta": 30,
+   "pm_eta": 5
+  },
+  "NSGA-II+S": {
+   "sbx_eta": 5,
+   "pm_eta": 20
+  },
+  "NSGA-II": {
+   "sbx_eta": 5,
+   "pm_eta": 20
+  },
+  "SPEA2+S": {
+   "sbx_eta": 5,
+   "pm_eta": 20
+  },
+  "WS-GA+S": {
+   "sbx_eta": 5,
+   "pm_eta": 5
+  }
+ }
+}
